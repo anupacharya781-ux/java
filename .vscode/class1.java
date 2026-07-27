@@ -8,6 +8,7 @@
     public static void main(String[] args){
         class1 s1 = new class1();
         s1.display();
+        System.out.println("name: " + s1.name);
     }
     
 }
