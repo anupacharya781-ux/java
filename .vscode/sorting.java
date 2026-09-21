@@ -3,6 +3,13 @@ public class sorting{
         Scanner sc = New Scanner(System.in);
         System.out.print("Enter the number of elements");
         int n = sc.nextInt();
-        int[] arr = new 
+        int[] arr = new int[n];
+        int temp;
+          for(int i=0; i<n; i++){
+            arr[i] = sc.nextInt();
+          }
+      
+        
+        }   
     }
 }
